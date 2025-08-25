@@ -19,8 +19,8 @@ pattern = "as.al"
 custom_domain = true
 
 [[r2_buckets]]
-binding = 'BUCKET'
-bucket_name = 'pastes'
+binding = 'pastebins'
+bucket_name = 'pastebins'
 
 [[d1_databases]]
 binding = "DB"
