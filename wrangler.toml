@@ -20,7 +20,7 @@ bucket = "./static/dist"
 
 [[r2_buckets]]
 binding = 'pastebins'
-bucket_name = 'pastebins'
+bucket_name = 'pastes'
 
 [[d1_databases]]
 binding = "DB"
