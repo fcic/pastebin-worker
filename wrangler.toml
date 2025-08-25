@@ -6,6 +6,10 @@ account_id = "ee9447f1c6c84ef5a5f3f01ccca28216"
 main = "src/index.ts"
 # workers_dev = true
 
+# If you stream file bodies (recommended)
+compatibility_flags = ["streams_enable_constructors"]
+
+
 [vars]
 ENVIRONMENT = "production"
 # BASE_URL = "https://fcic.cc"
@@ -19,8 +23,9 @@ bucket = "./static/dist"
 # custom_domain = true
 
 [[r2_buckets]]
-binding = 'pastebins'
-bucket_name = 'pastes'
+binding = 'R2'
+bucket_name = 'pastebins'
+preview_bucket_name = 'pastebins'
 
 [[d1_databases]]
 binding = "DB"
