@@ -8,7 +8,7 @@ workers_dev = false
 
 [vars]
 ENVIRONMENT = "production"
-BASE_URL = "https://fcic.cc"
+# BASE_URL = "https://fcic.cc"
 
 [site]
 bucket = "./static/dist"
