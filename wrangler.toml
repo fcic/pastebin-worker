@@ -23,7 +23,7 @@ bucket = "./static/dist"
 # custom_domain = true
 
 [[r2_buckets]]
-binding = 'BUCKET'
+binding = 'R2'
 bucket_name = 'pastebins'
 preview_bucket_name = 'pastebins'
 
