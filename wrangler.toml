@@ -12,7 +12,7 @@ compatibility_flags = ["streams_enable_constructors"]
 
 [vars]
 ENVIRONMENT = "production"
-BASE_URL = "https://fcic.cc"
+BASE_URL = "https://paste.fcic.cc"
 
 [site]
 bucket = "./static/dist"
@@ -24,7 +24,8 @@ bucket = "./static/dist"
 
 [[r2_buckets]]
 binding = 'R2'
-bucket_name = 'BUCKET'
+bucket_name = 'pastebins'
+preview_bucket_name = 'pastebins'
 
 [[d1_databases]]
 binding = "DB"
