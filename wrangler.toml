@@ -6,8 +6,7 @@ account_id = "ee9447f1c6c84ef5a5f3f01ccca28216"
 main = "src/index.ts"
 # workers_dev = true
 
-# If you stream file bodies (recommended)
-compatibility_flags = ["streams_enable_constructors"]
+
 
 
 [vars]
