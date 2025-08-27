@@ -307,12 +307,12 @@ export default function Tutorial() {
                       better!
                     </p>
                     <div className="flex flex-wrap gap-3">
-                      <a
-                        href="https://github.com/xiadd/pastebin-worker"
+                      {/* <a
+                        href="https://fcic.cc"
                         className="inline-flex items-center px-4 py-2 bg-gray-900 dark:bg-gray-700 text-white rounded-lg hover:bg-gray-800 dark:hover:bg-gray-600 transition-colors"
                         target="_blank"
                         rel="noopener noreferrer"
-                      >
+                      > */}
                         <svg
                           className="w-4 h-4 mr-2"
                           fill="currentColor"

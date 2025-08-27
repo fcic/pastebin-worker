@@ -32,19 +32,19 @@ export default function Header() {
         <Link to="/" className="flex items-center space-x-2">
           <img src={logoIcon} className="h-8 w-8" alt="PasteShare" />
           <span className="text-xl font-semibold text-gray-900 dark:text-white">
-            PasteShare
+            fcic Sharing
           </span>
         </Link>
         <nav className="flex items-center space-x-2">
-          <a
-            href="https://github.com/xiadd/pastebin-worker"
+          {/* <a
+            href="https://fcic.cc"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
             aria-label="View source code on GitHub"
           >
             <Github size={18} />
-          </a>
+          </a> */}
 
           <DropdownMenu>
             <DropdownMenuTrigger>

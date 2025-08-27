@@ -11,7 +11,7 @@ main = "src/index.ts"
 
 [vars]
 ENVIRONMENT = "production"
-BASE_URL = "https://paste.fcic.cc"
+BASE_URL = "https://share.fcic.cc"
 
 [site]
 bucket = "./static/dist"

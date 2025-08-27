@@ -17,15 +17,15 @@ export default function Footer() {
               by Cloudflare Workers for optimal performance.
             </p>
             <div className="flex gap-4">
-              <a
-                href="https://github.com/xiadd/pastebin-worker"
+              {/* <a
+                href="https://fcic.cc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                 aria-label="View source code on GitHub"
               >
                 <Github size={20} />
-              </a>
+              </a> */}
               <a
                 href="mailto:xiadd0102@gmail.com"
                 className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
@@ -66,14 +66,14 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a
-                  href="https://github.com/xiadd/pastebin-worker"
+                {/* <a
+                  href="https://fcic.cc"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                 >
                   Source Code
-                </a>
+                </a> */}
               </li>
               <li>
                 <a
