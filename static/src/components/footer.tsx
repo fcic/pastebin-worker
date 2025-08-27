@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
-              PasteShare
+              fcicShare
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4 max-w-md">
               A free, fast, and secure pastebin service for sharing code snippets, 
@@ -65,19 +65,19 @@ export default function Footer() {
                   Tutorial & API
                 </Link>
               </li>
-              <li>
-                {/* <a
+              {/* <li>
+                <a
                   href="https://fcic.cc"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                 >
                   Source Code
-                </a> */}
-              </li>
+                </a>
+              </li> */}
               <li>
                 <a
-                  href="https://github.com/xiadd/pastebin-worker/issues"
+                  href="https://fcic.cc/issues"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
@@ -92,7 +92,7 @@ export default function Footer() {
         <div className="border-t border-gray-200 dark:border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-600 dark:text-gray-300">
-              © {new Date().getFullYear()} PasteShare. Open source pastebin service.
+              © {new Date().getFullYear()} fcicShare. Open source pastebin service.
             </p>
             <p className="text-sm text-gray-600 dark:text-gray-300 mt-2 md:mt-0">
               Built with ❤️ using Cloudflare Workers

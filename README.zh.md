@@ -1,6 +1,6 @@
 # Pastebin Worker
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/xiadd/pastebin-worker)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://fcic.cc)
 
 **语言**: [English](README.md) | 中文
 
