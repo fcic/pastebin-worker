@@ -15,7 +15,7 @@ import {
 import { useTranslation } from "react-i18next";
 import { Link } from "wouter";
 
-import logoIcon from "../assets/logo.svg";
+// import logoIcon from "../assets/logo.svg";
 import { useTheme } from "../context/theme";
 
 export default function Header() {
@@ -30,7 +30,7 @@ export default function Header() {
     <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
       <div className="container mx-auto max-w-7xl px-4 h-16 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
-          <img src={logoIcon} className="h-8 w-8" alt="fcicShare" />
+          <img src="https://img.icons8.com/?size=100&id=UiLDvzb7rihI&format=png&color=000000" className="h-8 w-8" alt="fcicShare" />
           <span className="text-xl font-semibold text-gray-900 dark:text-white">
             fcicShare
           </span>
