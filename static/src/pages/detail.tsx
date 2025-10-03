@@ -111,10 +111,15 @@ export default function Detail() {
   if (language === "markdown") {
     return (
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-        <div className="container mx-auto max-w-6xl px-4 py-12 space-y-6">
+        <div className="container mx-auto max-w-6xl px-4 py-12 space-y-6" style="
+    padding-top: 0px;
+">
           {/* Header Section */}
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden">
-            <div className="p-8">
+            <div className="p-8" style="
+    padding-top: 0px;
+    padding-bottom: 0px;
+">
              
               <div className="flex flex-wrap justify-center gap-3">
                 <CopyButton text={`${window.location.origin}/detail/${id}`}>
@@ -217,10 +222,15 @@ export default function Detail() {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <div className="container mx-auto max-w-6xl px-4 py-12 space-y-6">
+      <div className="container mx-auto max-w-6xl px-4 py-12 space-y-6" style="
+    padding-top: 0px;
+">
         {/* Header Section */}
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden">
-          <div className="p-8">
+          <div className="p-8" style="
+    padding-top: 0px;
+    padding-bottom: 0px;
+">
             
             <div className="flex flex-wrap justify-center gap-3">
               <CopyButton text={`${window.location.origin}/detail/${id}`}>
