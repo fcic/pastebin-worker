@@ -115,36 +115,7 @@ export default function Detail() {
           {/* Header Section */}
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden">
             <div className="p-8">
-              <div className="text-center mb-8">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full mb-6">
-                  <svg
-                    className="w-8 h-8 text-blue-600 dark:text-blue-400"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                    />
-                  </svg>
-                </div>
-                <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-3">
-                  Markdown Document
-                </h1>
-                <p className="text-gray-600 dark:text-gray-300 text-lg">
-                  {new Date(
-                    pasteData?.create_time || Date.now(),
-                  ).toLocaleDateString()}{" "}
-                  • markdown •
-                  {pasteData?.share_password
-                    ? " Password Protected"
-                    : " Public"}
-                </p>
-              </div>
-
+             
               <div className="flex flex-wrap justify-center gap-3">
                 <CopyButton text={`${window.location.origin}/detail/${id}`}>
                   Copy URL {pasteData?.share_password && "(without password)"}
@@ -250,37 +221,7 @@ export default function Detail() {
         {/* Header Section */}
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden">
           <div className="p-8">
-            <div className="text-center mb-8">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full mb-6">
-                <svg
-                  className="w-8 h-8 text-blue-600 dark:text-blue-400"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                  />
-                </svg>
-              </div>
-              <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-3">
-                {language === "text"
-                  ? "Text"
-                  : language.charAt(0).toUpperCase() + language.slice(1)}{" "}
-                Snippet
-              </h1>
-              <p className="text-gray-600 dark:text-gray-300 text-lg">
-                {new Date(
-                  pasteData?.create_time || Date.now(),
-                ).toLocaleDateString()}{" "}
-                • {language} •
-                {pasteData?.share_password ? " Password Protected" : " Public"}
-              </p>
-            </div>
-
+            
             <div className="flex flex-wrap justify-center gap-3">
               <CopyButton text={`${window.location.origin}/detail/${id}`}>
                 Copy URL {pasteData?.share_password && "(without password)"}
