@@ -115,7 +115,7 @@ export default function Detail() {
           {/* Header Section */}
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden">
             <div className="p-8">
-              <div className="text-center mb-8">
+              {/* <div className="text-center mb-8"> */}
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full mb-6">
                   <svg
                     className="w-8 h-8 text-blue-600 dark:text-blue-400"
@@ -250,7 +250,7 @@ export default function Detail() {
         {/* Header Section */}
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden">
           <div className="p-8">
-            <div className="text-center mb-8">
+            {/* <div className="text-center mb-8"> */}
               <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full mb-6">
                 <svg
                   className="w-8 h-8 text-blue-600 dark:text-blue-400"
